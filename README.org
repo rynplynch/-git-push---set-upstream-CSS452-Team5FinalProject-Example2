@@ -1,0 +1,6 @@
+First commit to repo
+
+Docker image built using following command
+#+begin_src bash
+docker build -t rynplynch/webgl-keyframer:v0.1 .
+#+end_src

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example 7.6: The Line Drawable Project (not in the book) </title>
+        <link rel ="icon" type ="image/x-icon" href="./assets/favicon.ico">
+
+        <!-- the following says there are javascript source code contained in 
+             the external source files
+        -->
+        <!-- external library -->
+        <script type="text/javascript" src="src/lib/gl-matrix.js"></script>
+
+        <!-- our game -->
+        <script type="module" src="./src/my_game/my_game.js"></script>
+    </head>
+
+     <body>    
+        <canvas id="GLCanvas" width="768" height="576">
+            <!-- GLCanvas is the area we will draw in: a 640x480 area. -->
+            Your browser does not support the HTML5 canvas.
+            <!-- this message will show only if WebGL clearing failed -->
+
+           
+            
+        </canvas> 
+        <br> <b>Feature:</b> <br>
+        <ul>
+            <b>Ctrl</b> Ctrl-key click, change box <br>
+            <b>X</b> X-key click, change active animation <br>
+            
+            <br>
+            <b>R</b>: R-key click, resume animation <br>
+            <b>P</b>: P-key click, pause animation <br>
+            <b>Q</b>: Q-key click, reset scene, clear animation <br>
+            
+            <br>
+            <b>Space</b>: Space bar click, add frame <br>
+            <b>E</b>: E-key click, delete frame <br>
+
+            <br>
+            <b>M</b>: M-key click, increase frame index <br>
+            <b>N</b>: N-key click, decrease frame index <br>
+
+            <br>
+            <b>V</b>: V-key click, increase animation index <br>
+            <b>B</b>: B-key click, decrease animation index <br>
+
+            <br>
+            <b>Z</b>: Z-key press, press to switch mode to reducing from increase value  <br>
+
+            <br>
+            <b>J</b>: J-key press, change R value <br>
+            <b>K</b>: K-key press, change G value <br>
+            <b>L</b>: L-key press, change B value <br>
+
+            <br>
+            <b>O</b>: P-key press, increase object size <br>
+            <b>P</b>: O-key press, rotate objects left<br>
+            
+        </ul>   
+    </body>
+</html>

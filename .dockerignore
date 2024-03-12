@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+TableEntry.html
+*test.js
+.git
+.gitignore
+README.org
